@@ -1,0 +1,49 @@
+	<style>
+		h1 {
+			background-color: #777; 
+			color: green;
+			text-align: center;
+			font-size: 100px;
+			padding: 10px;
+			font-family: Arial;
+		}
+	
+		.nav {
+				float: left;
+				display: inline;
+		}
+
+		a {
+			display: block;
+			padding: 8px;
+			background-color: #777;
+		}
+
+		.rightnav {
+				float: right;
+				display: inline;
+		}
+
+		a {
+			display: block;
+			padding: 8px;
+			background-color: #777;
+			color: blue;
+			}
+
+		h2 {
+			font-size: 30px;
+			font-family: Helvetica Neue;
+		}
+		
+		.footer {
+			text-align: center;
+			font-size: 50px;
+			font-family: Helvetica;
+		}
+		.paragraph {
+			font-family: Helvetica sans-serif;
+			font-size: 18px;
+		}
+
+	</style>
