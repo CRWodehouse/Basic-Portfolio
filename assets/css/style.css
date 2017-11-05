@@ -1,49 +1,132 @@
-	<style>
-		h1 {
-			background-color: #777; 
-			color: green;
-			text-align: center;
-			font-size: 100px;
-			padding: 10px;
-			font-family: Arial;
-		}
+@import url ('https://fonts.googleapis.com/css?family=Open+Sans');
 	
-		.nav {
-				float: left;
-				display: inline;
-		}
 
-		a {
-			display: block;
-			padding: 8px;
-			background-color: #777;
-		}
+	body {
+		margin: 0;
+		background: #222;
+		font-family: 'Work Sans', sans-serif;
+		font-weight: 400;
+	}
 
-		.rightnav {
-				float: right;
-				display: inline;
-		}
 
-		a {
-			display: block;
-			padding: 8px;
-			background-color: #777;
-			color: blue;
-			}
+	header {
+		background: #9370DB;
+		width: 100%;
+		z-index: 0;
+	}
 
-		h2 {
-			font-size: 30px;
-			font-family: Helvetica Neue;
-		}
+	.cat-pic {
+		padding: 5px;
+	}
+	
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+	nav {
+		float: right;
+		padding-right: 10%;
+		background: #C0C0C0;
+		z-index: 1;
+	}
+
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	nav li {
+		display: inline-block;
+		margin-left: 70px;
+		padding-top: 23px;
+		z-index: 1;
+	}
+
+	nav a {
+		color: #444;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 14px;
+	}
+
+ 	nav a:hover {
+		color: white;
+	}
 		
-		.footer {
-			text-align: center;
-			font-size: 50px;
-			font-family: Helvetica;
-		}
-		.paragraph {
-			font-family: Helvetica sans-serif;
-			font-size: 18px;
-		}
+	.profileimage {
+		border: 5px;
+	}
 
-	</style>
+	.section {
+		float: left;
+		width: 650px;
+		margin-top: 10px;
+		margin-left: 20px;
+		margin-bottom: 20px;
+		background-color: #00FFFF;
+		position: relative;
+		z-index: 1
+	}
+
+	.section .article .H1 {
+		margin-top: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+		background-color: #008080;
+		z-index: 2;
+		text-align: center;
+	}
+	
+	.section .article .p {
+		width: 95%;
+		position: relative;
+		margin: auto;
+		margin-top: 5px;
+		background-color: #6A5ACD;
+		z-index: 2;
+		float: left;
+		align: left;
+	}
+
+	aside {
+		float: right;
+		width: 270px;
+		margin-right: 10px;
+		margin-top: 10px;
+		background-color: #EE82EE;
+		color: gray;
+		font-family: 'Work Sans', sans-serif;
+		font-weight: 200;
+		list-style: none;
+		padding-left: 5px;
+	}
+
+	.logo {
+		float: left;
+	}
+	.push {
+		height: 50px;
+	}
+	.footer {
+		height: 50px;
+	    left: 0;
+	    bottom: 0;
+	    width: 100%;
+	    background-color: red;
+	    color: white;
+	    text-align: center;
+	}
+
