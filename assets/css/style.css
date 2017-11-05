@@ -116,10 +116,12 @@ li a:hover {
 
 	.logo {
 		float: left;
+
+	.content .portfolioimage {
+		width: 100px;
+		height: 100px;
 	}
-	.push {
-		height: 50px;
-	}
+
 	.footer {
 		height: 50px;
 	    left: 0;
